@@ -20,8 +20,11 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 ## Lab Questions
 
 ### 1 - Explain the role of the Top Level file.
+The top-level file merges circuits A and B and assigns them names referring to switches or LEDs for the constraints file. 
 
 ### 2 - Explain the function of the Constraints file.
+The constraints file tells Vivado which pins are called what in the Top-Level file so that they can be interacted with on the circuit board.
 
 ### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
-
+No, I would not have chosen maxterms for circuit_a. There are 12 outputs of 0 and only 4 of 1, so I would have rather done the minterms.
+For circuit_b, I don't think it's a big deal which one is chosen since the number of 0 and 1 outputs are equal.
