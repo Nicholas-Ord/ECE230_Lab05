@@ -16,6 +16,7 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 ## Nicholas Ordway Dawson Gardels
 
 ## Lab Summary
+In this lab we first implemented the minterms of a truth table that represented a circuit creating a reusable module. We then had to define the constraints to allow us to use the ports that we wanted to program. After that, we tested the logic on a Basys 3 board.
 
 ## Lab Questions
 
